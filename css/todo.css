@@ -13,62 +13,12 @@ html {
 body {
   margin: 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-[hidden],
-template {
-  display: none;
-}
-a {
-  background-color: transparent;
-}
-a:active,
-a:hover {
-  outline: 0;
-}
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-b,
-strong {
-  font-weight: bold;
-}
-dfn {
-  font-style: italic;
-}
-h1 {
-  margin: .67em 0;
-  font-size: 2em;
-}
+
 p {
   color:red;
 }
 #cancel{
-  display: none;
+    display: none;
 }
 #newitem{
   display: none;
@@ -81,6 +31,7 @@ p {
   font-size: 8pt;
 }
 div.delete{
+  display: none;
   font-size: 8pt;
   float: right;
   border: 1px solid #900;
@@ -108,4 +59,11 @@ span.check{
   height: 20px;
   display: inline-block;
   margin-right: 10px;
+}
+span.time{
+  font-size:8pt;
+  opacity: 0.5;
+}
+#item_tm{
+  display: none;
 }
