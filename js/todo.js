@@ -135,6 +135,11 @@ function loaditems() {
   return items;
 }
 
+window.applicationCache.addEventListener('updateready',function(){
+  window.applicationCache.swapCache();
+  location.reload();
+});
+
 
 }
 
